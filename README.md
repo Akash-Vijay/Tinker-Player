@@ -1,2 +1,2 @@
 # Tinker-Player
-Audio recording &amp; Audio Playing Python Project
+Python based Audio Recorder &amp; Audio Player
