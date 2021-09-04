@@ -1,7 +1,7 @@
-import sounddevice                   # for recording & playing audio
+import sounddevice                   # for recording audio
 import wavio                         # for generating audio file
-import vlc                   # for converting audio file into array data
-import time
+import vlc                           # for playing audio
+import time                          # for code funcionality
 
 
 print("\n\n! ! !   Welcome to Tinker Player   ! ! !\n\n")
@@ -14,8 +14,8 @@ if choice == 1:  # Recording an audio
 
     frequency = 48000   # defualt frequency for recording
 
-    name = input("Enter name for your file: ")   # Naming the audio file
-    time_limit = int(input("Enter the duration of audio: "))  # duartion of the audio
+    name = input("Enter a name for your file (without any extension): ")   # Naming the audio file
+    time_limit = int(input("Enter the duration of audio (in seconds): "))  # duartion of the audio
 
 
     # Initiating recording for the given time
